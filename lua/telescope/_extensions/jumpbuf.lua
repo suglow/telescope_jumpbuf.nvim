@@ -24,7 +24,7 @@ local function show_jumpbuf(opts)
 
 	pickers
 		.new(opts, {
-			prompt_title = "Jumplist",
+			prompt_title = "Jump Buffers",
 			finder = finders.new_table({
 				results = sorted_jumplist,
 				entry_maker = make_entry.gen_from_quickfix(opts),
